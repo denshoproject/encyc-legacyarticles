@@ -1,0 +1,19 @@
+==========
+encyc-legacyarticles
+==========
+
+**encyc-legacyarticles** is a set of static pages representing old 
+versions of several camp articles from the Densho Encyclopedia 
+(`https://encyclopedia.densho.org/`). The repo contains the html, css and 
+images to support rendering.
+
+Installation
+------------
+
+The entire contents of the `/encyc-legacy` directory should be placed on 
+the static media server that supports the `encyc-front` application. The 
+base url path to the directory must be:
+
+`https://encyclopedia.densho.org/media/`
+
+
