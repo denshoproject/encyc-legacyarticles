@@ -37,9 +37,9 @@ goodimgs = []
 for page in pages:
     soup = bs4.BeautifulSoup(page, "html.parser")
     for img in soup.find_all('img'):
-        if img.has_attr('large'):
-            if 'cache' in img['large']:
-                goodimgs.append(img['large'])
+#        if img.has_attr('large'):
+        if 'cache' in img['src']:
+            goodimgs.append(img['src'])
 
 for goodimg in goodimgs:
     print(goodimg)
